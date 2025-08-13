@@ -1,12 +1,12 @@
-# Use official PHP image with Apache
+# Use PHP 8.2 with Apache
 FROM php:8.2-apache
 
-# Install required PHP extensions
+# Install dependencies
 RUN apt-get update && apt-get install -y \
     git unzip libzip-dev libpng-dev libonig-dev libxml2-dev \
     && docker-php-ext-install pdo pdo_mysql zip gd bcmath mbstring
 
-# Enable Apache mod_rewrite for Laravel routes
+# Enable Apache rewrite
 RUN a2enmod rewrite
 
 # Set working directory
@@ -15,17 +15,18 @@ WORKDIR /var/www/html
 # Copy composer
 COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 
-# Copy Laravel project files
+# Copy project files
 COPY . .
 
-# Install dependencies without dev packages
+# Install PHP dependencies
 RUN composer install --no-dev --optimize-autoloader
 
-# Set permissions for Laravel
+# Laravel storage permissions
 RUN chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache
 
 # Expose port 80
 EXPOSE 80
 
-# Run Laravel migrations on container start, then start Apache
-CMD php artisan migrate --force && apache2-foreground
+# Start Apache (migrations will be run manually after deploy)
+CMD ["apache2-foreground"]
+
