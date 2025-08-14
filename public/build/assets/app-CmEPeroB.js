@@ -1,1 +1,0 @@
-document.addEventListener("DOMContentLoaded",()=>{const t=document.getElementById("menu-btn"),e=document.getElementById("mobile-menu");t.addEventListener("click",()=>{e.classList.toggle("hidden"),e.classList.toggle("flex")})});
