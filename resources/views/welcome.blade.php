@@ -1,4 +1,3 @@
-use Illuminate\Support\Str;
 @extends('components.layout')
 @section('header-extra-class', 'absolute')
 @section('content')
