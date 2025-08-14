@@ -60,10 +60,10 @@
 
                     <div class="p-4 flex flex-col flex-grow justify-between">
                         <div class="info">
-                            <p class="font-semibold text-sm">{{$product->name}}</p>
-                            <p class="text-gray-600 text-xs mt-1">{{$product->priceamande}}DA /{{$product->pricecacahuete}}DA</p>
+                            <p class="font-bold text-sm md:text-base ">{{$product->name}}</p>
+                            <p class="text-gray-600 text-xs md:text-base mt-1">{{$product->priceamande}}DA /{{$product->pricecacahuete}}DA</p>
                         </div>
-                        <button class="mt-4 bg-yellow-600 text-xs text-white py-1.5 px-2 rounded hover:bg-yellow-700 transition">Commander</button>
+                        <button class="mt-4 bg-yellow-600 text-xs md:text-base md:py-2 md:px-3 text-white py-1.5 px-2 rounded hover:bg-yellow-700 transition">Commander</button>
                     </div>
 
                 </div>
@@ -97,10 +97,10 @@
                 
                     <div class="p-4 flex flex-col flex-grow justify-between">
                         <div>
-                            <p class="font-semibold text-sm">{{$product->name}}</p>
-                            <p class="text-gray-600 text-xs mt-1">{{$product->priceamande}}DA /{{$product->pricecacahuete}}DA</p>
+                            <p class="font-bold text-sm md:text-base ">{{$product->name}}</p>
+                            <p class="text-gray-600 text-xs md:text-base mt-1">{{$product->priceamande}}DA /{{$product->pricecacahuete}}DA</p>
                         </div>
-                        <button class="mt-4 bg-yellow-600 text-xs text-white py-1.5 px-2 rounded hover:bg-yellow-700 transition">Commander</button>
+                        <button class="mt-4 bg-yellow-600 text-xs text-xs md:text-base md:py-2 md:px-3 text-white py-1.5 px-2 rounded hover:bg-yellow-700 transition">Commander</button>
                     </div>
 
                 </div>
