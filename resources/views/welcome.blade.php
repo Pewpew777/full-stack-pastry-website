@@ -2,13 +2,13 @@
 @section('header-extra-class', 'absolute')
 @section('content')
     <div style="background-image: url('images/pexels-anete-lusina-32086078.jpg');" class="bg-cover bg-center h-screen w-screen flex flex-col justify-center items-center text-center gap-10">
-        <div class="hero-content">
-            <h1 class="font-dmserif text-[rgb(54,36,8)] font-semibold  text-[7vw] md:text-[6vw] lg:text-[4vw] mt-18" style="text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);">GATEAUX MAROUA</h1>
-            <p class="text-white font-semibold text-[5vw] lg:text[3vw]">Where luxury meets taste.</p>
+        <div class="hero-content space-y-2">
+            <h1 class="font-dmserif text-[rgb(54,36,8)] font-semibold  text-[7.5vw] md:text-[6vw] lg:text-[4vw] mt-20" style="text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);">GATEAUX MAROUA</h1>
+            <p class="text-white font-semibold text-[5vw] md:text-[3vw]">Where luxury meets taste.</p>
         </div>
         <div class=" flex flex-col sm:flex-row gap-4">
-            <a href="#traditionnels" class="cursor-pointer p-[1.5vw] lg:p-[1.2vw] text-[rgb(54,36,8)] font-medium text-base bg-[rgb(252,246,237)] rounded hover:scale-101 transition-transform duration-100">Gateaux Traditionels Algeriens</a>
-            <a href="#moderns" class="cursor-pointer p-[1.5vw] lg:p-[1.2vw] text-[rgb(54,36,8)] font-medium text-base bg-[rgb(252,246,237)] rounded hover:scale-101 transition-transform duration-100">Gateaux Moderns</a>
+            <a href="#traditionnels" class="cursor-pointer px-[2.5vw] py-[1.9vw] lg:p-[1.2vw] text-[rgb(54,36,8)] font-medium text-[3.5vw] lg:text-base  bg-[rgb(252,246,237)] rounded hover:scale-101 transition-transform duration-100">Gateaux Traditionels Algeriens</a>
+            <a href="#moderns" class="cursor-pointer p-[1.5vw] lg:p-[1.2vw] text-[rgb(54,36,8)] font-medium text-[3.5vw] lg:text-base  bg-[rgb(252,246,237)] rounded hover:scale-101 transition-transform duration-100">Gateaux Moderns</a>
         </div>
     </div>
 
@@ -60,10 +60,10 @@
 
                     <div class="p-4 flex flex-col flex-grow justify-between">
                         <div class="info">
-                            <p class="font-bold text-lg">{{$product->name}}</p>
-                            <p class="text-gray-600 text-sm mt-1">{{$product->priceamande}}DA /{{$product->pricecacahuete}}DA</p>
+                            <p class="font-semibold text-sm">{{$product->name}}</p>
+                            <p class="text-gray-600 text-xs mt-1">{{$product->priceamande}}DA /{{$product->pricecacahuete}}DA</p>
                         </div>
-                        <button class="mt-4 bg-yellow-600 text-white py-2 px-4 rounded hover:bg-yellow-700 transition">Commander</button>
+                        <button class="mt-4 bg-yellow-600 text-xs text-white py-1.5 px-2 rounded hover:bg-yellow-700 transition">Commander</button>
                     </div>
 
                 </div>
@@ -97,10 +97,10 @@
                 
                     <div class="p-4 flex flex-col flex-grow justify-between">
                         <div>
-                            <p class="font-bold text-lg">{{$product->name}}</p>
-                            <p class="text-gray-600 text-sm mt-1">{{$product->priceamande}}DA /{{$product->pricecacahuete}}DA</p>
+                            <p class="font-semibold text-sm">{{$product->name}}</p>
+                            <p class="text-gray-600 text-xs mt-1">{{$product->priceamande}}DA /{{$product->pricecacahuete}}DA</p>
                         </div>
-                        <button class="mt-4 bg-yellow-600 text-white py-2 px-4 rounded hover:bg-yellow-700 transition">Commander</button>
+                        <button class="mt-4 bg-yellow-600 text-xs text-white py-1.5 px-2 rounded hover:bg-yellow-700 transition">Commander</button>
                     </div>
 
                 </div>

@@ -19,7 +19,7 @@
 
     <!-- Menu Button (small screens) -->
     <img id="menu-btn" src="{{ asset('images/588a6507d06f6719692a2d15.png') }}" alt="menu" 
-         class="lg:hidden w-[50px] h-auto cursor-pointer">
+         class="lg:hidden w-[40px] h-auto cursor-pointer">
 
     <!-- Nav Menu -->
     <ul id="mobile-menu" class="hidden gap-5 list-none absolute lg:static top-[70px] left-0 w-full lg:w-auto bg-white shadow-lg lg:shadow-none flex-col lg:flex-row items-start lg:items-center p-5 lg:p-0 z-50">

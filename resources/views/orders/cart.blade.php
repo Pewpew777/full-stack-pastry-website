@@ -27,7 +27,7 @@
     </div>
 
     {{-- Checkout Form --}}
-    <form action="{{route('cart.submitorder')}}" method="POST" class="space-y-4 px-10">
+    <form action="{{route('cart.submitorder')}}" method="POST" class="space-y-4 px-10 pb-10 ">
         @csrf
 
         <div>

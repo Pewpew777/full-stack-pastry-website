@@ -16,7 +16,7 @@
         <img src="{{ asset('images/pngtree-bakery-logo-baker-illustration-png-image_6625246.png') }}" alt="logo" class="w-20 h-auto">
         <p class="font-dmserif text-2xl text-gray-800">Admin</p>
     </div>
-    <img id="menu-btn" src="{{ asset('images/588a6507d06f6719692a2d15.png') }}" alt="menu" class="flex lg:hidden w-[50px] h-auto">
+    <img id="menu-btn" src="{{ asset('images/588a6507d06f6719692a2d15.png') }}" alt="menu" class="flex lg:hidden w-[40px] h-auto">
     <ul class="hidden lg:flex gap-5 list-none">
         <li><a href="/" class="font-dmserif text-base text-gray-800 hover:text-gray-600 transition">Home</a></li>
         <li><a href="{{route('admin.dashboard')}}" class="font-dmserif text-base text-gray-800 hover:text-gray-600 transition">Commandes</a></li>
