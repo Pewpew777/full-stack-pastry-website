@@ -2,7 +2,7 @@ use Illuminate\Support\Str;
 @extends('components.layout')
 @section('header-extra-class', 'absolute')
 @section('content')
-    <div style="background-image: url('storage/products/pexels-anete-lusina-32086078.jpg');" class="bg-cover bg-center h-screen w-screen flex flex-col justify-center items-center text-center gap-10">
+    <div style="background-image: url('images/pexels-anete-lusina-32086078.jpg');" class="bg-cover bg-center h-screen w-screen flex flex-col justify-center items-center text-center gap-10">
         <div class="hero-content">
             <h1 class="font-dmserif text-[rgb(54,36,8)] font-semibold  text-[8vw] md:text-[6vw] lg:text-[4vw] mt-18" style="text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);">GATEAUX MAROUA</h1>
             <p class="text-white font-semibold text-[3vw] lg:text[3vw]">Where luxury meets taste.</p>
