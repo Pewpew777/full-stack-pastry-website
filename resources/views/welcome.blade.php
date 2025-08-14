@@ -7,8 +7,8 @@
             <p class="text-white font-semibold text-[5vw] md:text-[3vw]">Where luxury meets taste.</p>
         </div>
         <div class=" flex flex-col sm:flex-row gap-4">
-            <a href="#traditionnels" class="cursor-pointer px-[2.5vw] py-[1.9vw] lg:p-[1.2vw] text-[rgb(54,36,8)] font-medium text-[3.5vw] lg:text-base  bg-[rgb(252,246,237)] rounded hover:scale-101 transition-transform duration-100">Gateaux Traditionels Algeriens</a>
-            <a href="#moderns" class="cursor-pointer p-[1.5vw] lg:p-[1.2vw] text-[rgb(54,36,8)] font-medium text-[3.5vw] lg:text-base  bg-[rgb(252,246,237)] rounded hover:scale-101 transition-transform duration-100">Gateaux Moderns</a>
+            <a href="#traditionnels" class="cursor-pointer px-[2.5vw] py-[2.8vw] lg:p-[1.2vw] text-[rgb(54,36,8)] font-medium text-[3.5vw] lg:text-base  bg-[rgb(252,246,237)] rounded hover:scale-101 transition-transform duration-100">Gateaux Traditionels Algeriens</a>
+            <a href="#moderns" class="cursor-pointer p-[2.5vw] lg:p-[1.2vw] text-[rgb(54,36,8)] font-medium text-[3.5vw] lg:text-base  bg-[rgb(252,246,237)] rounded hover:scale-101 transition-transform duration-100">Gateaux Moderns</a>
         </div>
     </div>
 
