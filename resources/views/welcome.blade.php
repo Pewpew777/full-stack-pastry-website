@@ -143,7 +143,7 @@
                 <h2 class="font-dmserif text-xl mb-3">Contact</h2>
                 <ul class="space-y-3 text-sm">
                     <li ><a class="flex gap-2" href="https://www.instagram.com/gateaux_maroua_" target="_blank" class="instagram-icon">
-                    <img class="w-6" src="{{asset('storage/products/5968776.png')}}" alt="insta"> gateaux_maroua_</a></li>
+                    <img class="w-6" src="{{asset('images/5968776.png')}}" alt="insta"> gateaux_maroua_</a></li>
                     <li>📍 Ouled Hedadj, Boumerdes, Alger</li>
                     <li>📞 +213 5xx xx xx xx</li>
                     <li>📧 contact@gateauxmaroua.dz</li>
