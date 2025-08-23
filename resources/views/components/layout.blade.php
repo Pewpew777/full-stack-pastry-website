@@ -13,7 +13,7 @@
 <body>
 <header class="{{ $__env->yieldContent('header-extra-class') }} top-0 left-0 w-full z-50 bg-white/10 backdrop-blur-sm flex items-center justify-between px-5">
     <div class="flex items-center gap-2">
-        <img src="{{asset('/images/pngtree-bakery-logo-baker-illustration-png-image_6625246.png') }}" alt="logo" class="w-20 h-auto">
+        <img src="{{asset('/images/maroua logo(1)(1).png') }}" alt="logo" class="w-20 h-auto">
         <p class="font-dmserif text-2xl text-gray-800">GATEAUX MAROUA</p>
     </div>
 
