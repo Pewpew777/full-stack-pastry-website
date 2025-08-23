@@ -11,9 +11,9 @@
     @vite(['resources/css/app.css','resources/js/app.js'])
 </head>
 <body>
-<header class="top-0 left-0 w-full shadow-md z-50 sha backdrop-blur-sm flex bg-gray-200 items-center justify-between px-5">
+<header class="top-0 left-0 w-full shadow-md z-50 sha backdrop-blur-sm flex bg-gray-200 items-center justify-between px-5 py-2">
     <div class="flex items-center gap-2">
-        <img src="{{ asset('images/maroua logo(1)(1).png') }}" alt="logo" class="w-20 h-auto">
+        <img src="{{ asset('images/maroua logo(1)(1).png') }}" alt="logo" class="w-12 h-auto">
         <p class="font-dmserif text-2xl text-gray-800">Admin</p>
     </div>
     <img id="menu-btn" src="{{ asset('images/588a6507d06f6719692a2d15.png') }}" alt="menu" class="flex lg:hidden w-[40px] h-auto">
